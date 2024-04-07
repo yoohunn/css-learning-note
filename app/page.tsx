@@ -46,6 +46,11 @@ export default function Home() {
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           description="Find in-depth information about Next.js features and API."
         />
+        <MenuItem
+          title="Accordion"
+          href="/accordion"
+          description="The simple trick to transition from height 0 to auto with CSS"
+        />
       </div>
     </main>
   );
