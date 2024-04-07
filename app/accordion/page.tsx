@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 export default function AccordionPage() {
   return (
-    <main className='prose mx-auto max-w-[1080px] h-screen flex flex-col item-center py-20'>
+    <main className='prose mx-auto py-20 px-4'>
       <h1>Accordion</h1>
       <section className='space-y-2'>
         <div className={`${styles.accrodionWrapper} ${styles.accordion}`}>
