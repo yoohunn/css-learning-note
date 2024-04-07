@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  margin-inline: auto;
+  border-bottom: 2px white solid;
+}
+
+.nav div {
+  width: 4rem;
+  aspect-ratio: 1;
+  background-color: white;
+}
+
+.nav {
+  padding: 0.5rem;
+  padding-inline: 1rem;
+
+  width: min(1280px, 100%);
+  margin-inline: auto;
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav div:first-child {
+  margin-right: auto;
+}
+
+.nav div:last-child {
+  margin-left: auto;
+}
+
+.main {
+  width: min(1080px, 100%);
+  margin-inline: auto;
+}
+
+/* example */
+.example,
+.example2,
+.example3 {
+  background-color: rgb(214, 219, 221);
+  margin-bottom: 0.5rem;
+}
+
+.example .nav div:last-child {
+  margin-left: 0;
+}
+
+.example2 .nav div:first-child {
+  margin-right: 0;
+}
