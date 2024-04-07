@@ -1,0 +1,11 @@
+.main {
+  /* 65개의 알파벳 문자에 해당하는 만큼의 공간을 최소 너비로 할당 */
+  /* min(): 괄호 안에 나열된 값 중 가장 작은 값을 선택 */
+  width: min(70ch, 100% - 2rem);
+  /* margin-inline: 택스트가 흐르는 축의 마진 */
+  /* direction: ltr(default) */
+  /* margin-inline: left right */
+  /* direction: rtl */
+  /* margin-inline: right left */
+  margin-inline: auto;
+}

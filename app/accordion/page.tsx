@@ -1,12 +1,12 @@
-import { CodeBlock } from "@/components";
+import { CodeBlock } from '@/components';
 
-import styles from "./styles.module.css";
+import styles from './styles.module.css';
 
 export default function AccordionPage() {
   return (
-    <main className="prose mx-auto max-w-[1080px] h-screen flex flex-col item-center p-20">
+    <main className='prose mx-auto max-w-[1080px] h-screen flex flex-col item-center py-20'>
       <h1>Accordion</h1>
-      <section className="space-y-2">
+      <section className='space-y-2'>
         <div className={`${styles.accrodionWrapper} ${styles.accordion}`}>
           <div>this is Accordion</div>
         </div>
@@ -14,13 +14,13 @@ export default function AccordionPage() {
           <div>{dummyText}</div>
         </div>
         <div className={`${styles.accrodionWrapper} ${styles.accordionPannel}`}>
-          <p className="m-0">Hover here 👈</p>
+          <p className='m-0'>Hover here 👈</p>
           <div className={styles.accordion}>
             <div>{dummyText}</div>
           </div>
         </div>
       </section>
-      <CodeBlock code={code} language="css" />
+      <CodeBlock code={code} language='css' />
     </main>
   );
 }
