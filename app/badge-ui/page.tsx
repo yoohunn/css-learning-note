@@ -2,12 +2,14 @@ import styles from './styles.module.css';
 
 export default async function BadgeUiPage() {
   return (
-    <main className={styles.screen}>
-      <ul className={styles.groupWrapper}>
-        {badgeGroups.map((group) => (
-          <BadgeGroup key={group.id} {...group} />
-        ))}
-      </ul>
+    <main className={styles.main}>
+      <div className={styles.screen}>
+        <ul className={styles.groupWrapper}>
+          {badgeGroups.map((group) => (
+            <BadgeGroup key={group.id} {...group} />
+          ))}
+        </ul>
+      </div>
     </main>
   );
 }

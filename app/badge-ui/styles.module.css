@@ -1,12 +1,17 @@
+.main {
+  padding: 4rem 0;
+  min-width: 22.5rem;
+}
+
 .screen {
+  padding: 40px 25px;
   background-color: white;
   border: 1px solid lightgray;
   border-radius: 0.5rem;
-  padding: 40px 25px;
 
   width: min(100% - 4rem, 29rem);
   aspect-ratio: 1/2;
-  margin: 4rem auto;
+  margin-inline: auto;
 }
 
 .groupWrapper {
